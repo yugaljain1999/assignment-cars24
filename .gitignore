@@ -3,3 +3,4 @@ classifier/**/__pycache__/
 __pycache__/
 mlruns/.trash/
 classifier/model/model_state.pt
+notebook/data/
