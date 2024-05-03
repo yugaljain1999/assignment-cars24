@@ -1,0 +1,16 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "imageclassifier"
+  namespace: "kserve-test"
+spec:
+  predictor:
+    containers:
+      - name: "imageclassifier"
+        image: "yugaljain03/imageclassifier"
+        ports:
+          - containerPort: 8080
+            protocol: TCP
+        env:
+          - name: PROTOCOL
+            value: "v2"

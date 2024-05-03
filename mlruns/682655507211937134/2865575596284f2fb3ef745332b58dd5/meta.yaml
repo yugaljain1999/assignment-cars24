@@ -1,0 +1,15 @@
+artifact_uri: /mnt/c/Users/HP/Assign/mlruns/682655507211937134/2865575596284f2fb3ef745332b58dd5/artifacts
+end_time: 1714735639895
+entry_point_name: ''
+experiment_id: '682655507211937134'
+lifecycle_stage: active
+run_id: 2865575596284f2fb3ef745332b58dd5
+run_name: wise-loon-96
+run_uuid: 2865575596284f2fb3ef745332b58dd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714735101063
+status: 3
+tags: []
+user_id: yugal
